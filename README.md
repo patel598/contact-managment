@@ -1,12 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ##### Contact Management Application ######
+This is a Contact Management Application where users can create, edit, update, and delete contacts efficiently.
 
-Currently, two official plugins are available:
+## ### Features Overview:
+- Create Multiple Contacts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Users can add multiple contacts at once using a dynamic form.
 
-## Expanding the ESLint configuration
+- The form includes validation powered by Formik and Yup, ensuring input correctness.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Smooth animations enhance the user experience during form interactions.
+
+## ## Navigation & Layout
+
+- The application has a header with two primary navigation elements:
+
+- Left Side – "Contact Manager": Navigates to the Dashboard page displaying all contacts with pagination.
+
+- Right Side – "Create Contact": navigates to the Create Contact Form.
+
+## Dashboard (Contact List Page)
+
+- All created contacts are displayed in a table format on a separate page with pagination.
+
+- Users can:
+
+Edit a contact: Clicking the Edit button navigates to the form page with pre-filled data. After updating, the user is redirected back to the dashboard.
+
+Delete a contact: Clicking the Delete button opens a confirmation modal. Upon confirmation, the contact is deleted.
+
+
+
+
+## Instraction
+
+- npm install
+
+- npm run dev
